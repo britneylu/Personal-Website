@@ -47,7 +47,7 @@
                         pursuing a bachelor's degree in Computer Science and a minor in Economics.
                         My passion for computer science was ignited by my natural curiosity about how technology
                         empowers innovation and enables us to solve complex problems efficiently.
-                        I am actively seeking internships, co-op opportunities, or part-time positions to apply and
+                        I am actively seeking internships or part-time positions to apply and
                         enhance my knowledge in the field. I am committed to cultivating a robust foundation in software
                         development, algorithms, and problem-solving.</p>
 
@@ -69,7 +69,9 @@
 
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>February 2024 - Present</span><br>Tech Tutor at Vintage Inc.</li>
+                            <li><span> September 2024 - Present</span><br>Undergraduate Research Assistant at University
+                                of Pittsburgh</li>
+                            <li><span>February 2024 - April 2024</span><br>Tech Tutor at Vintage Inc.</li>
                             <li><span>January 2024</span><br>SheInnovates Hackathon</li>
                         </ul>
                     </div>
@@ -121,7 +123,12 @@
                     <img src="images/work-1.png">
                     <div class="layer">
                         <h3>College Budgeting App</h3>
-                        <p>This app helps college students budget their money on a semester basis.</p>
+                        <p>The college financial budgeting app was conceptualized, designed, and developed as a
+                            comprehensive tool to guide students from ideation through execution in managing their
+                            finances. It offers a practical solution tailored to help students budget effectively and
+                            build lasting financial habits. With a Java back end integrated into a Figma-designed front
+                            end, the app provides a fully functional and cohesive experience, allowing users to navigate
+                            their finances smoothly and efficiently.</p>
                         <a href="https://github.com/britneylu/She-Innovates-2024/tree/main/She%20Innovates%202024"><i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
@@ -131,9 +138,36 @@
                     <img src="images/work-2.png">
                     <div class="layer">
                         <h3>Pittsburgh Neigborhood Analysis</h3>
-                        <p>This GitHub repository shows an analysis of the most greenest/environmental friendly
-                            neighborhood in Pittsburgh.</p>
+                        <p>A comprehensive analysis of Pittsburgh neighborhoods to identify the best area to live in
+                            based on various data-driven criteria. Using Python, Jupyter, Pandas, and GitHub, the
+                            project focused on analyzing neighborhood data and constructing an engaging narrative within
+                            a Jupyter notebook.</p>
                         <a href="https://github.com/britneylu/CMPINF0010-finalproject"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>HangMan</h3>
+                        <p>This Hangman game is a simple console-based Java application where players can guess letters
+                            to uncover a hidden word. The game features different difficulty levels and keeps track of
+                            player stats such as games won and games played.</p>
+                        <a href="https://github.com/britneylu/HangMan"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-4.png">
+                    <div class="layer">
+                        <h3>The MacGuffin Hunter</h3>
+                        <p>MacGuffin Hunter is a fast-paced, tile-based game coded in MIPS assembly language that
+                            challenges players to navigate a grid-like arena, collecting the highly coveted MacGuffins
+                            while evading enemies. Combining strategy and quick reflexes, the game provides an engaging
+                            gameplay experience with simple yet compelling mechanics.</p>
+                        <a href="https://github.com/cs0447-2251/cs0447-project1-2-britneylu"><i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
@@ -217,9 +251,9 @@
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
                     msg.innerHTML = "Message sent successfully!"
-                    setTimeout(function(){
+                    setTimeout(function () {
                         msg.innerHTML = ""
-                    },5000)
+                    }, 5000)
                     form.reset()
                 })
                 .catch(error => console.error('Error!', error.message))
